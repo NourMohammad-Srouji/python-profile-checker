@@ -1,10 +1,10 @@
 # get the values from the user.
 
-Name = input('Enter your name: ')
-Age = int(input('Enter your age: '))
-GPA = float(input('Enter your gpa; GPA (0-5, can be decimals): '))
-Field_of_Interest = input('Enter your field of interest: ')
-Graduated = input('Graduated: ("yes" or "no")? ')
+name = input('Enter your name: ')
+age = int(input('Enter your age: '))
+gpa = float(input('Enter your gpa; GPA (0-5, can be decimals): '))
+field_of_Interest = input('Enter your field of interest: ')
+graduated = input('Graduated: ("yes" or "no")? ')
 
 print()
 
