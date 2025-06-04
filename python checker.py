@@ -15,12 +15,12 @@ lower_case_graduated = graduated.lower()
 
 print('Your name is', name + '.')
 print('Your are', age, 'years old.')
-print('You have GPA' + '.')
+print('You have GPA', gpa + '.')
 print('You are interested in', field_of_interest + '.')
 print('Are you graduated? yes or no?', lower_case_graduated + '.')
 print()
 
-# Check the eligible conditions to execute their body.
+# Check the eligigible conditions to execute their body.
 if gpa > 0 and gpa < 5:
     if lower_case_graduated != 'yes' and lower_case_graduated  != 'no':
         print(graduated, 'is not a valid answer.')
