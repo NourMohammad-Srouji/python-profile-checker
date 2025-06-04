@@ -15,7 +15,7 @@ lower_case_graduated = graduated.lower()
 
 print('Your name is', name + '.')
 print('Your are', age, 'years old.')
-print('You have GPA', format(gpa, '.2f') + '.')
+print('You have GPA' + '.')
 print('You are interested in', field_of_interest + '.')
 print('Are you graduated? yes or no?', lower_case_graduated + '.')
 print()
